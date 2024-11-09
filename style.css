@@ -1,0 +1,424 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    background-color: white;
+  }
+  
+  /* Header */
+  header {
+    background: #6a11cb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff79c6;
+  }
+  
+  /* Hero Section */
+  /* Hero Section */
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: white;
+}
+
+/* Hero Card Styles - Adjusted Width and Height */
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #4dcf9d;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 60%; /* Half of the website width */
+  height: 500px; /* Fixed height */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero Image Styling */
+.hero-image img {
+  width: 250px; /* Reduced size to fit smaller card */
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4e89ae;
+  margin-bottom: 10px;
+}
+
+/* Hero Info Styling */
+.hero-info h1 {
+  font-size: 35px;
+  color: #333;
+  margin: 0;
+}
+
+.hero-info p {
+  font-size: 20px;
+  color: #777;
+  margin-top: 5px;
+}
+
+
+  /* About Section */
+#about {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#about h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+  
+  .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cta-button {
+    background: #ff79c6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #ff4596;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  
+  /* Stats Section */
+  #stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10%;
+    background-color: #f0f4f8;
+  }
+  
+  #stats .stat h3 {
+    font-size: 2em;
+    color: #6a11cb;
+  }
+  
+  #stats .stat p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 10%;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    background: #2575fc;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 50px 10%;
+    background: white;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 2em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Certifications Section */
+  #certifications {
+    padding: 50px 10%;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #certifications h2 {
+    font-size: 2em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .certifications-list li {
+    background: #ff79c6;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 50px 10%;
+    background:white;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    font-size: 2em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  .download-button {
+    padding: 12px 25px;
+    background: #6a11cb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background: #2575fc;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 10%;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #contact h3 {
+    font-size: 2em;
+    color: #6a11cb;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #contact button {
+    padding: 10px 20px;
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #contact button:hover {
+    background: #2575fc;
+  }
+  
+  /* Social Links Section */
+  #social-links {
+    padding: 20px;
+    background-color: #87cbf9;
+    text-align: center;
+  }
+  
+  /* General button styles */
+.social-buttons {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.btn i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* LinkedIn button */
+.linkedin {
+  background-color: #0A66C2;
+}
+.linkedin:hover {
+  background-color: #084B8A;
+}
+
+/* LeetCode button */
+.leetcode {
+  background-color: #FFA116;
+}
+.leetcode:hover {
+  background-color: #CC840E;
+}
+
+/* GitHub button */
+.github {
+  background-color: #333333;
+}
+.github:hover {
+  background-color: #242424;
+}
+
+  
+  /* Footer */
+  footer {
+    background: #6a11cb;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  #certificates{
+    text-align: center;
+  }
+  
+  
